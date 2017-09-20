@@ -25,7 +25,7 @@ export default Factory.extend({
   email() {return faker.internet.email(); },
   firstName() {return faker.name.firstName(); },
   lastName() {return faker.name.lastName(); },
-  avator() {return faker.image.avatar();; },
+  avatar() {return faker.image.avatar();; },
 });
 // end-sample
 
