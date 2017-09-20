@@ -37,3 +37,24 @@ export default function() {
   this.del('/posts/:id');
 };
 // end-sample
+
+// sample(default)
+// app/mirage/scenarios/default.js
+export default function(server) {
+  let author = server.create('author');
+  server.createList('post', 10, {author});
+}
+// end-sample
+
+// sample(acc1)
+// app/mirage/config.js
+test('I can view the photos', function() {
+  server.createList('photo', 10);
+
+  visit('/');
+
+  andThen(() => {
+    equal( find('img').length, 10 );
+  });
+});
+// end-sample
