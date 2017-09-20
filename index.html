@@ -28,14 +28,7 @@
 					<textarea data-template>
 						### What would Tomster do?
 						<img class="plain" width="100" src="images/teaching.png" alt="Teaching Tomster">
-						<pre>
-							<code data-trim data-noescape>
-								var a = {
-									foo: 'bar',
-									baz: "ju"
-								}
-							</code>
-						</pre>
+						<pre><code data-sample="code-samples/foo.js"></code></pre>
 					</textarea>
 				</section>
 				<section>Slide 2</section>
@@ -54,6 +47,7 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/sampler.js' },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
