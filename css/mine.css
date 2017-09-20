@@ -1,0 +1,37 @@
+/* text */
+.centered-text {
+  text-align: center;
+}
+
+/* images */
+
+.reveal section img {
+  background: none;
+}
+.reveal section img.img-grayscale {
+  filter: grayscale(100%);
+}
+
+/* grid */
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container--space-around {
+  justify-content: space-around;
+}
+
+.flex-container--center {
+  justify-content: center;
+}
+
+.flex-container--align-items-center {
+  align-items: center;
+}
+
+/* lists */
+
+.reveal ul.ul--no-style {
+  list-style-type: none;
+}
