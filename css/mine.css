@@ -35,3 +35,14 @@
 .reveal ul.ul--no-style {
   list-style-type: none;
 }
+
+/* Colors */
+.mirage {
+  color: #FF522A;
+}
+
+/* blockquotes */
+.reveal blockquote footer {
+  text-align: right;
+  font-size: 0.5em;
+}
