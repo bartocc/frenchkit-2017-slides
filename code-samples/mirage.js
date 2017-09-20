@@ -14,7 +14,7 @@ export default function() {
 
   // this route will handle a POST request
   // to the URL '/api/products'
-  this.post('/products');
+  this.post('/products'); // HTTP status 201
 };
 // end-sample
 
@@ -32,9 +32,9 @@ export default function() {
 export default function() {
 
   // Define different
-  this.get('/api/authors');
-  this.put('/api/authors/:id');
-  this.del('/posts/:id');
+  this.get('/api/authors'); // HTTP status 200
+  this.put('/api/authors/:id'); // HTTP status 204
+  this.del('/posts/:id'); // HTTP status 204
 };
 // end-sample
 
