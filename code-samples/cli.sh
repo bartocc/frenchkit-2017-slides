@@ -2,21 +2,21 @@
 $ ember generate model product
 
 installing model
-  create app/product/model.js
+  create app/models/product.js
 installing model-test
-  create tests/unit/product/model-test.js
+  create tests/unit/models/product-test.js
 # end-sample
 
 # sample(route)
 $ ember generate route products
 
 installing route
-  create app/products/route.js
-  create app/products/template.hbs
+  create app/routes/products.js
+  create app/templates/products.hbs
 updating router
   add route products
 installing route-test
-  create tests/unit/products/route-test.js
+  create tests/unit/routes/products-test.js
 # end-sample
 
 # sample(install-mirage)
