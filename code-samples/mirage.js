@@ -13,10 +13,10 @@ export default function() {
 // sample(endpoints)
 // app/mirage/config.js
 export default function() {
-  this.post('/authors'); // HTTP status 201
-  this.get('/authors'); // HTTP status 200
-  this.put('/authors/:id'); // HTTP status 204
-  this.del('/authors/:id'); // HTTP status 204
+  this.post('/authors');
+  this.get('/authors');
+  this.put('/authors/:id');
+  this.del('/authors/:id');
 };
 // end-sample
 
