@@ -307,10 +307,38 @@
 					<section>
 						<h2>Possible Swift approach</h2>
 						<ul>
-							<li>???</li>
-							<li>???</li>
+							<li>Key-Value Observing</li>
+							<li>Bindings</li>
 						</ul>
 					</section>
+
+					<section>
+						<p>HTMLBars (.hbs) templates</p>
+						<pre><code data-sample='code-samples/case-study-2.hbs#t1'></code></pre>
+					</section>
+
+					<section>
+						<p>Controllers define the context</p>
+						<pre><code data-sample='code-samples/case-study-2.js#controller'></code></pre>
+					</section>
+
+					<section>
+						<p>Computed Properties automatically update the values</p>
+						<pre><code data-sample='code-samples/case-study-2.js#cp'></code></pre>
+					</section>
+
+					<section>
+						<p>Now we can refactor the template</p>
+						<pre><code data-sample='code-samples/case-study-2.hbs#t2'></code></pre>
+					</section>
+
+					<section>
+						<p>But what if a user interaction modifies the model?</p>
+						<pre><code data-sample='code-samples/case-study-2.hbs#t3'></code></pre>
+
+						<p><foo-bar></foo-bar></p>
+					</section>
+
 				</section>
 
 				<!-- Mirage -->
@@ -324,8 +352,8 @@
 					<section>
 						<h2>Possible Swift approach</h2>
 						<ul>
-							<li>Key-Value Observing</li>
-							<li>Bindings</li>
+							<li>???</li>
+							<li>???</li>
 						</ul>
 					</section>
 
@@ -444,6 +472,7 @@
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
+		<script src="lib/js/foo-bar.js" defer></script>
 		<script src="js/reveal.js"></script>
 
 		<script>
