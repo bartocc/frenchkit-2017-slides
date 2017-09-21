@@ -16,6 +16,10 @@ $ ember install ember-cli-mirage
 $ ember new my-awesome-ember-app
 # end-sample
 
+# sample(serve)
+$ ember serve
+# end-sample
+
 # sample(tree)
 $ tree -L 2 .
 ├── README.md
