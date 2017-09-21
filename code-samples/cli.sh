@@ -1,13 +1,3 @@
-# sample(model)
-$ ember generate model product
-
-installing model
-  create app/models/product.js
-installing model-test
-  create tests/unit/models/product-test.js
-# end-sample
-
-# sample(route)
 $ ember generate route products
 
 installing route
@@ -17,7 +7,6 @@ updating router
   add route products
 installing route-test
   create tests/unit/routes/products-test.js
-# end-sample
 
 # sample(install-mirage)
 $ ember install ember-cli-mirage
