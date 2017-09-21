@@ -6,6 +6,4 @@
 
 Historique Ember
 sproutcore + MVC ?
-comment je suis venu à ember
 check trainline logo
-emacs
