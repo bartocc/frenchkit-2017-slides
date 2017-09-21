@@ -3,7 +3,7 @@
 export default function() {
 
   // Simulate a slow response from the server
-  this.post('/authors', { timing: 1500 });
+  this.post('/authors', { timing: 3000 });
 
   // Handle error cases
   this.get('/some/secret', {message: 'unauthorized'}, 404);
