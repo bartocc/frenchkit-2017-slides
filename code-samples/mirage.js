@@ -6,7 +6,7 @@ export default function() {
   this.post('/authors', { timing: 3000 });
 
   // Handle error cases
-  this.get('/some/secret', {message: 'unauthorized'}, 404);
+  this.get('/some/secret', {message: 'unauthorized'}, 401);
 };
 // end-sample
 
